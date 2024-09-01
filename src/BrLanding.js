@@ -1,5 +1,5 @@
 import React from 'react';
-import { IceCream, ShoppingBag, Smartphone, Tag } from 'lucide-react';
+import { IceCream,ShoppingBag, Smartphone, Tag } from 'lucide-react';
 import blueIce from './images/blueIce.webp'
 import BrLogo from "./images/brlogo.png"
 import pinkIce from './images/pinkIce.jpeg'
@@ -16,7 +16,7 @@ const BrLanding = () => {
       
       <main className="container mx-auto px-4 py-8 ">
         <section className="mb-12 text-center">
-          <h2 className="text-2xl font-semibold mb-4 text-pink-300 ">Welcome to Flavor Paradise!</h2>
+          <h2 className="text-5xl font-semibold mb-4 text-pink-300 ">Welcome to Flavor Paradise!</h2>
           <p className="text-lg text-white">Indulge in our world-famous flavors and exciting new offers!</p>
         </section>
         
@@ -38,7 +38,7 @@ const BrLanding = () => {
           />
         </section>
 
-        <section className="bg-pink-100 p-8 rounded-lg shadow-md mb-12" >
+        <section className="bg-blue-300 p-8 rounded-lg shadow-md mb-12" >
             <div className='flex flex-row gap-[50px] justify-center'>
 
             <div className=' '>
@@ -46,9 +46,9 @@ const BrLanding = () => {
 
                 </div>
 
-<div className='flex flex-col '>
-<h3 className="text-xl font-semibold mb-4 text-center text-blue-600">Download Our Mobile App</h3>
-          <p className="text-gray-700 text-center mb-6 max-w-[250px]">Get the full Baskin Robbins experience on your phone. Order, earn rewards, and discover new flavors!</p>
+<div className='flex flex-col ml-2'>
+<h3 className="text-2xl font-semibold mb-4 text-center text-black tracking-tight">Download Our Mobile App</h3>
+          <p className="text-black text-center ml-4 mb-6 max-w-[250px]">Get the full Baskin Robbins experience on your phone. Order, earn rewards, and discover new flavors!</p>
           <div className="flex justify-center space-x-4">
             <button className="bg-black text-white px-6 py-2 rounded-full flex items-center">
               <Smartphone className="w-5 h-5 mr-2" />
@@ -66,7 +66,7 @@ const BrLanding = () => {
         </section>
         
         <section className="text-center">
-          <h3 className="text-xl font-semibold mb-4 text-blue">New Online Exclusive Flavors</h3>
+          <h3 className="text-3xl font-semibold mb-4 text-[#FFDC7F]">New Online Exclusive Flavors!!</h3>
           <p className="text-white mb-6">Try our latest creations, available only for online orders!</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-blue-100 p-4 rounded-lg">
