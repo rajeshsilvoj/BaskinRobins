@@ -41,7 +41,7 @@ const BrLanding = () => {
         <section className="bg-blue-300 p-8 rounded-lg shadow-md mb-12" >
             <div className='flex flex-row gap-[50px] justify-center'>
 
-            <div className=' '>
+            <div className='hidden md:block '>
                 <img className="rounded-lg" src={androidImg} width="250px" height="50px" alt="Raspberry blast"></img>
 
                 </div>
