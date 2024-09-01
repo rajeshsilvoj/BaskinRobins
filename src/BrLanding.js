@@ -1,5 +1,5 @@
 import React from 'react';
-import { IceCream, Star, Truck, ShoppingBag, Smartphone, Tag } from 'lucide-react';
+import { IceCream, ShoppingBag, Smartphone, Tag } from 'lucide-react';
 import blueIce from './images/blueIce.webp'
 import BrLogo from "./images/brlogo.png"
 import pinkIce from './images/pinkIce.jpeg'
